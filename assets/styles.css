@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(174, 238, 190);
+  background: radial-gradient(circle, rgba(174, 238, 190, 1) 0%, rgba(148, 224, 233, 1) 100%);
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+/* Text Styling */
+.bold-text {
+  text-transform: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder 500;
+  background: none;
+}
+
+.sans-serif {
+  text-transform: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bolder 400;
+  background: none;
+}
+
+nav {
+  padding: 28px 0;
+  background: none;
+
+}
+
+span {
+  background: none;
+}
+
+/* Hamburger Styles */
+/* End of Haburger */
+
+/* Page Frame */
+header .container-top {
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background: none;
+  display: flex;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+h1 {
+  background: none;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+main .container-left {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 32px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+
+footer {
+  position: fixed;
+}
