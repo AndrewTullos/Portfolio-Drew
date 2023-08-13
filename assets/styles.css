@@ -1,30 +1,32 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  background: rgb(174, 238, 190);
-  background: radial-gradient(circle, rgba(174, 238, 190, 1) 0%, rgba(148, 224, 233, 1) 100%);
-  color: rgb(0, 0, 0);
   box-sizing: border-box;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 /* Text Styling */
 .bold-text {
   text-transform: none;
   font-family: 'Roboto', sans-serif;
-  font-weight: bolder 500;
+  font-weight: bold;
   background: none;
 }
 
 .sans-serif {
   text-transform: none;
   font-family: 'Rajdhani', sans-serif;
-  font-weight: bolder 400;
-  background: none;
-}
-
-nav {
-  padding: 28px 0;
+  font-weight: 500;
   background: none;
 }
 
@@ -32,15 +34,82 @@ span {
   background: none;
 }
 
+.background-image {
+  z-index: -1;
+  background-image: url(https://images.pexels.com/photos/7130548/pexels-photo-7130548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  opacity: 1;
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
 /* Hamburger Styles */
 /* End of Haburger */
 
 /* Page Frame */
+header {
+  display: flex;
+}
+
+.container-top {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  /* margin: 20px; */
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 28px 0;
+  justify-content: space-between;
+}
+
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  text-align: center;
   background: none;
+}
+
+.container-hero {
+  display: flex;
+  justify-content: center;
+  background: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+h1 {
+  font-size: 96px;
+  margin-top: 0;
+  line-height: 10vh;
+
+}
+
+.push-left {
+  text-align: center;
+}
+
+.push-right {
+  text-align: right;
 }
 
 .container-main {
@@ -49,18 +118,47 @@ span {
   background: none;
 }
 
-.container-hero {
-  justify-content: center;
-  background: none;
-}
-
-.container-left, .container-right {
+.container-left,
+.container-right {
   flex: 1;
   padding: 10px;
-  border: 1px solid black;
   background: none;
+  /* border: 1px solid rgb(0, 0, 0); */
+
 }
 
+.container-left {
+  /* margin: 20px; */
+
+}
+
+.greeting {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.mailing-list {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.container-right {
+  /* margin: 20px; */
+  /* border-bottom: 1px solid rgb(0, 0, 0); */
+
+}
+
+.box-r-1 {
+  border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+
+
+.box-r-2 {
+  border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+.box-r-3 {}
 
 .bottom {
   display: inline-block;
@@ -71,5 +169,7 @@ span {
   background: none;
   flex-direction: row;
   flex: 1;
-
+  text-align: center;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
