@@ -26,7 +26,6 @@
 nav {
   padding: 28px 0;
   background: none;
-
 }
 
 span {
@@ -37,41 +36,40 @@ span {
 /* End of Haburger */
 
 /* Page Frame */
-header .container-top {
-  border-bottom: 1px solid #000;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  background: none;
+.container {
   display: flex;
-  border-bottom: 1px solid rgb(0, 0, 0);
-}
-
-h1 {
+  flex-direction: column;
+  height: 100vh;
   background: none;
 }
 
-h3 {
-  margin-top: 0;
-  margin-bottom: 32px;
-  font-family: Roboto, sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.2em;
+.container-main {
+  display: flex;
+  flex: 1;
+  background: none;
 }
 
-main .container-left {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 32px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+.container-hero {
+  justify-content: center;
+  background: none;
+}
+
+.container-left, .container-right {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid black;
+  background: none;
 }
 
 
+.bottom {
+  display: inline-block;
+  background: none;
+}
 
-footer {
-  position: fixed;
+.container-bottom {
+  background: none;
+  flex-direction: row;
+  flex: 1;
+
 }
