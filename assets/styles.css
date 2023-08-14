@@ -16,6 +16,20 @@ body {
   margin-right: 10vw;
 }
 
+/* image styling */
+img {
+  width: 500px;
+  height: auto;
+}
+
+div .portrait img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
 /* Text Styling */
 .bold-text {
   text-transform: none;
@@ -81,6 +95,18 @@ nav ul {
   gap: 20px;
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
 
 .container {
   display: flex;
@@ -234,11 +260,9 @@ input[type=submit]:hover {
 
 /* Card Carousel */
 
-img {
-  width: 500px;
-  height: auto;
-}
 
 footer {
   position: fixed;
+  display: block;
+  margin: 10px;
 }
