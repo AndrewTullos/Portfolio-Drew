@@ -235,7 +235,10 @@ input[type=submit]:hover {
 /* Card Carousel */
 
 img {
-  width: 400px;
+  width: 500px;
   height: auto;
 }
 
+footer {
+  position: fixed;
+}
