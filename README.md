@@ -1,11 +1,11 @@
 
 
 
-# <Drew's-Portfolio>
+# Drew's-Portfolio
 
 ## Description
 
-	![Website Preview](./assets/images/Background-img.jpeg)
+[Website Preview](./assets/images/Background-img.png)
 
 This project is intended to display the following:
 - Convey to potential hiring managers a portfolio of work samples
@@ -26,13 +26,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation
 Though not necessary, the recommended browser for viewing the full potential of this webpage is [Chrome](https://www.google.com/chrome/)
 
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
 
 ## Credits
 
