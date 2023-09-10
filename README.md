@@ -42,5 +42,5 @@ The following code is listed without a licesnes and is solely for mockup purpose
 ### Carousel
 
 On the left and the right of the photos shown below simply click the arrows to sort through the various examples in my portfolio.
-	![Carousel](./assets/images/Carousel.png)
+	
 Clicking on the image itself will take you to hosted website - hosting curtousy of Github Pages.
